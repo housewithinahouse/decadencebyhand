@@ -1,0 +1,110 @@
+/*
+THEME NAME: Decadence 0.2
+THEME URI: http://www.plaintxt.org/themes/sandbox/
+DESCRIPTION: Rich with powerful and dynamic semantic class selectors, Sandbox is a canvas for CSS artists
+VERSION: 1.7.0
+AUTHOR: <a >Andy Skelton</a> &amp; <a >PlainTXT.org</a>
+AUTHOR URI:
+TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, blank slate, starter theme, minimalist, developer
+*/
+
+/* Two-column with sidebar on left from the /examples/ folder  */
+/* Just some example content */
+
+a{
+	color:inherit;
+	text-decoration:none;
+}
+
+/*END RESET*/
+
+/* Background*/
+.wordpress{
+	margin:0;
+	background:#eee;
+	background-image:url('http://housewithinahouse.com/wordpress/wp-content/uploads/2013/12/b55.jpg');
+	background-size:40% auto;
+	background-repeat:no-repeat;
+
+}
+
+#header{
+	background-image:url(http://housewithinahouse.com/wordpress/wp-content/themes/decadence/images/banner1.png);
+	color:rgba(0,0,0,0);
+	background-repeat:no-repeat;
+	height:8vw;
+	background-size:auto 100%;
+	margin-left:1vw;
+}
+#menu{
+	float:left;
+	width:14vw;
+	margin:1vw;
+	margin-right:1.8vw
+}
+#menu ul{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+#menu li{
+	display:inline-block;
+	float:left;
+	width:100%;
+	height:3.5vw;
+	font-size:2vw;
+	margin:.4vw 0;
+	background:rgba(255,255,255,.5);
+	padding:0 .8vw;
+	padding-top:.8vw;
+	text-align:center;
+	overflow:hidden;
+}
+#menu li:hover{
+	background:rgba(255,255,255,.8);
+	text-shadow:0 0 12px black;
+}
+div#container{
+	float:right;
+	width:78vw;
+	margin:1vw;
+	margin-top:1.4vw;
+	padding:1vw;
+	background:rgba(255,255,255,.5);
+}
+.sidebar{
+	float:left;
+	width:14vw;
+	margin:1vw;
+	margin-top:0;
+}
+.xoxo{
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+.widget{
+	width:100%;
+	margin:1vw 0;
+	padding:0 .8vw;
+	background:rgba(255,255,255,.5);
+}
+.widget h3{
+	text-align:center;
+	font-size:1.8vw;
+	font-weight:normal;
+	margin:0;
+	padding-top:1vw;
+	border-bottom:thin solid black;
+	margin-bottom:.1vw;
+}
+.widget ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+.skip-link{
+	display:none;
+}

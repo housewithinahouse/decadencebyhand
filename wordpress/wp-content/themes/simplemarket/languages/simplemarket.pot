@@ -1,0 +1,340 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleMarket\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-11 11:45+0100\n"
+"PO-Revision-Date: 2011-08-11 11:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: WPMU DEV <contact@wpmudev.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /Users/karmatosed/Desktop/simplemarket\n"
+
+#: /Users/karmatosed/Desktop/simplemarket/404.php:14
+msgid "Not Found"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/404.php:17
+msgid "Sorry we could not find that page."
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/archive.php:16
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/archive.php:18
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/archive.php:20
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/archive.php:22
+msgid "Blog Archives"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/author.php:16
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/author.php:25
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/category.php:14
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/comments.php:12
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/comments.php:26
+#: /Users/karmatosed/Desktop/simplemarket/comments.php:37
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/comments.php:27
+#: /Users/karmatosed/Desktop/simplemarket/comments.php:38
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/comments.php:46
+msgid "Comments are closed."
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-aside.php:13
+msgid "Aside"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-aside.php:18
+msgid "View the pictures &rarr;"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-aside.php:19
+#: /Users/karmatosed/Desktop/simplemarket/content-chat.php:24
+#: /Users/karmatosed/Desktop/simplemarket/content-gallery.php:40
+#: /Users/karmatosed/Desktop/simplemarket/content-image.php:24
+#: /Users/karmatosed/Desktop/simplemarket/content-link.php:24
+#: /Users/karmatosed/Desktop/simplemarket/content-quote.php:24
+#: /Users/karmatosed/Desktop/simplemarket/content-status.php:24
+#: /Users/karmatosed/Desktop/simplemarket/content-video.php:24
+#: /Users/karmatosed/Desktop/simplemarket/content.php:36
+msgid "<span>Pages:</span>"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-aside.php:23
+#: /Users/karmatosed/Desktop/simplemarket/content-chat.php:29
+#: /Users/karmatosed/Desktop/simplemarket/content-gallery.php:43
+#: /Users/karmatosed/Desktop/simplemarket/content-image.php:29
+#: /Users/karmatosed/Desktop/simplemarket/content-link.php:29
+#: /Users/karmatosed/Desktop/simplemarket/content-quote.php:29
+#: /Users/karmatosed/Desktop/simplemarket/content-status.php:29
+#: /Users/karmatosed/Desktop/simplemarket/content-video.php:29
+msgid "by"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-aside.php:26
+#: /Users/karmatosed/Desktop/simplemarket/content-chat.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-gallery.php:46
+#: /Users/karmatosed/Desktop/simplemarket/content-image.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-link.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-quote.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-single.php:22
+#: /Users/karmatosed/Desktop/simplemarket/content-status.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-video.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content.php:43
+msgid "<span class=\"leave-reply\">Comment</span>"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-aside.php:26
+#: /Users/karmatosed/Desktop/simplemarket/content-chat.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-gallery.php:46
+#: /Users/karmatosed/Desktop/simplemarket/content-image.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-link.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-quote.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-single.php:22
+#: /Users/karmatosed/Desktop/simplemarket/content-status.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-video.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content.php:43
+msgid "1 Comment"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-aside.php:26
+#: /Users/karmatosed/Desktop/simplemarket/content-chat.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-gallery.php:46
+#: /Users/karmatosed/Desktop/simplemarket/content-image.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-link.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-quote.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-single.php:22
+#: /Users/karmatosed/Desktop/simplemarket/content-status.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content-video.php:32
+#: /Users/karmatosed/Desktop/simplemarket/content.php:43
+msgid "% Comments"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-aside.php:30
+#: /Users/karmatosed/Desktop/simplemarket/content-chat.php:36
+#: /Users/karmatosed/Desktop/simplemarket/content-gallery.php:50
+#: /Users/karmatosed/Desktop/simplemarket/content-image.php:36
+#: /Users/karmatosed/Desktop/simplemarket/content-link.php:36
+#: /Users/karmatosed/Desktop/simplemarket/content-quote.php:36
+#: /Users/karmatosed/Desktop/simplemarket/content-single.php:26
+#: /Users/karmatosed/Desktop/simplemarket/content-status.php:36
+#: /Users/karmatosed/Desktop/simplemarket/content-video.php:36
+#: /Users/karmatosed/Desktop/simplemarket/content.php:47
+msgid "Categories: "
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-aside.php:35
+#: /Users/karmatosed/Desktop/simplemarket/content-chat.php:41
+#: /Users/karmatosed/Desktop/simplemarket/content-gallery.php:55
+#: /Users/karmatosed/Desktop/simplemarket/content-image.php:41
+#: /Users/karmatosed/Desktop/simplemarket/content-link.php:41
+#: /Users/karmatosed/Desktop/simplemarket/content-quote.php:41
+#: /Users/karmatosed/Desktop/simplemarket/content-single.php:31
+#: /Users/karmatosed/Desktop/simplemarket/content-status.php:41
+#: /Users/karmatosed/Desktop/simplemarket/content-video.php:41
+#: /Users/karmatosed/Desktop/simplemarket/content.php:52
+#, php-format
+msgid "Tags: %2$s"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-aside.php:39
+#: /Users/karmatosed/Desktop/simplemarket/content-chat.php:45
+#: /Users/karmatosed/Desktop/simplemarket/content-gallery.php:59
+#: /Users/karmatosed/Desktop/simplemarket/content-image.php:45
+#: /Users/karmatosed/Desktop/simplemarket/content-link.php:45
+#: /Users/karmatosed/Desktop/simplemarket/content-quote.php:45
+#: /Users/karmatosed/Desktop/simplemarket/content-single.php:34
+#: /Users/karmatosed/Desktop/simplemarket/content-status.php:45
+#: /Users/karmatosed/Desktop/simplemarket/content-video.php:45
+#: /Users/karmatosed/Desktop/simplemarket/content.php:56
+msgid "Edit &rarr;"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-aside.php:40
+#: /Users/karmatosed/Desktop/simplemarket/content-chat.php:46
+#: /Users/karmatosed/Desktop/simplemarket/content-gallery.php:60
+#: /Users/karmatosed/Desktop/simplemarket/content-image.php:46
+#: /Users/karmatosed/Desktop/simplemarket/content-link.php:46
+#: /Users/karmatosed/Desktop/simplemarket/content-page.php:24
+#: /Users/karmatosed/Desktop/simplemarket/content-quote.php:46
+#: /Users/karmatosed/Desktop/simplemarket/content-single.php:35
+#: /Users/karmatosed/Desktop/simplemarket/content-status.php:46
+#: /Users/karmatosed/Desktop/simplemarket/content-video.php:46
+#: /Users/karmatosed/Desktop/simplemarket/content.php:57
+msgid "Permlink"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-chat.php:13
+msgid "Chat"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-chat.php:23
+#: /Users/karmatosed/Desktop/simplemarket/content-image.php:23
+#: /Users/karmatosed/Desktop/simplemarket/content-link.php:23
+#: /Users/karmatosed/Desktop/simplemarket/content-quote.php:23
+#: /Users/karmatosed/Desktop/simplemarket/content-status.php:23
+#: /Users/karmatosed/Desktop/simplemarket/content-video.php:23
+#: /Users/karmatosed/Desktop/simplemarket/content.php:31
+#: /Users/karmatosed/Desktop/simplemarket/content.php:35
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-gallery.php:13
+msgid "Gallery"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-gallery.php:19
+#: /Users/karmatosed/Desktop/simplemarket/content-gallery.php:24
+msgid "View the gallery"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-image.php:13
+msgid "Image"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-link.php:13
+msgid "Link"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-page.php:22
+#: /Users/karmatosed/Desktop/simplemarket/content-single.php:16
+msgid "Pages:"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-page.php:23
+msgid "Edit"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-quote.php:13
+msgid "Quote"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-single.php:42
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-status.php:13
+msgid "Status"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content-video.php:13
+msgid "Video"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/content.php:14
+msgid "Featured"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/functions.php:51
+msgid "Top Menu"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/functions.php:104
+msgid "Sidebar"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/functions.php:132
+msgid "Pingback:"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/functions.php:132
+msgid "(Edit)"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/functions.php:149
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/functions.php:153
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/functions.php:159
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/functions.php:175
+msgid "WPMU DEV"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/functions.php:175
+msgid "Copyright"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/functions.php:175
+msgid "Y"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/functions.php:175
+msgid "Go back to top &uarr;"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/functions.php:187
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/functions.php:188
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/header.php:27
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/search.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/search.php:23
+msgid "Nothing Found"
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/search.php:26
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: /Users/karmatosed/Desktop/simplemarket/sidebar.php:15
+msgid "Meta"
+msgstr ""
+

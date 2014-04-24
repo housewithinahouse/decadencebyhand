@@ -1,0 +1,52 @@
+1.0.1
+-----
+- Better scripting handling
+- Some code comment changes
+
+1.0.2
+-----
+- Added demo url
+
+1.0.3
+-----
+- Fullsize screenshot image
+
+1.0.4
+-----
+- Cleanup
+
+1.0.5
+-----
+- Comment bug fix
+
+1.0.6
+-----
+- Added link to dates for posts without post title
+- Formatted: tt, q, var
+- Fixed: Edit link on comments not showing
+- Changed #comment to #comments 
+- Added comments to Page template
+- Enqueued Google font scripts
+- Picked up untranslated string
+- Changed screenshot
+- Added flexible width to list of tags
+- Fixed long menu
+
+1.0.7
+-----
+- Added note about 22 letter word limit on sub menus
+- Added fix for pre tag in comments
+- Added clear and styling for page edit and permlink
+
+1.0.8.1
+-------
+- Sort versioning
+
+1.1
+-----
+- Added fallback menu
+- Fixed spelling mistake in description
+
+1.1.1
+-----
+- Regenerated pot / po files

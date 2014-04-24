@@ -1,0 +1,114 @@
+
+
+<style>
+	body{
+		font-family: arial;
+		background:#eee;
+	}
+	#canvas{
+		float: left;
+		margin: 0px;
+		width:900px;
+		height:350px;
+		border-right: thin solid black;
+	}
+	ul{
+		float: left;
+		margin: 0px;
+		padding: 0px;
+		margin-top:10px;
+		border-bottom:thin solid black;
+	}
+	.info{
+		text-align: right;
+		float: left;
+		margin: 0px;
+		padding: 2px;
+		width:180px;
+		line-height:95%;
+	}
+	li{
+		list-style-type: none;
+		text-transform: uppercase;
+		padding: 2px;
+		font-size: 35px;
+		background: #ccc;
+		margin: 2px;
+		text-align: center;
+		text-shadow:0px 0px 12px #222;
+	}
+	li:hover{
+		background:#aaa;
+		text-shadow:0px 0px 10px #111,
+		0px 0px 2px #777;
+	}
+	a{
+		text-decoration:none;
+		color:black;
+	}
+	.titleBlockContainer{
+		position:relative;
+		width:1100px;
+		margin:auto;
+
+	}
+	hr{
+		margin:0;
+		margin-bottom:8px;
+	}
+</style>
+<div class="titleBlockContainer">
+	<a href="wordpress"><div id="canvas"></div></a>
+	<ul>
+		<a href="wordpress/?page_id=4"><li>Classes</li></a>
+		<a href="wordpress"><li>Blog</li></a>
+		<a href="http://thecuspofcivandwilderness.tumblr.com/"><li>Tumblr</li></a>
+		<a href="http://www.etsy.com/shop/DecadenceByHand"><li>Wares</li></a>
+		<a href="http://decadencebyhand.com/wordpress/?page_id=23"><li>About</li></a>
+	</ul>
+	<div class="info">
+	<i>Wild Crafting,<br>Wooden Handicrafts,<br>and Victuals</i><br> by: Eric Edgin
+	<hr>
+	<b>email:</b>
+	decadencebyhand at gmail.com
+	<hr>
+	</div>
+</div>
+<script src="wordpress/js/svg.js"> </script>
+<script>
+	// create svg drawing paper
+	var draw = SVG('canvas').size(900,550);
+	function clippingText(title){
+		this.specs = {
+			words: title,
+			fontSugar: {
+									family: 'Arial'
+								, size: 120
+								, weight: 800
+								, anchor: 'end'
+								, leading: '1em'
+								 },
+			lineSpacing: 110,
+			offset: -30,
+			width: 900
+		}
+
+		this.titleArray = this.specs[ 'words' ].split(" "); //split the text into an array, one word per entry
+		this.staticText = new Array; //what's displayed
+		this.clipText = draw.clip(); //what's used to clip the image
+		for( i in this.titleArray ) {
+			var line = draw.text( this.titleArray[ i ] ) //create a line of text
+			line.move( this.specs[ 'width' ], this.specs[ 'offset' ] + ( this.specs[ 'lineSpacing' ] * i ) ) //move line into place
+			line.font( this.specs[ 'fontSugar' ]); //add font sugar
+			this.staticText.push( line ); //add line onto end of staticText array
+			this.clipText.add( draw.use( line ) ); //make a copy of line and add it into the clip()
+		}
+	}
+
+	mpt = new clippingText("DECADENCE BY HAND");
+
+	var image = draw.image("wordpress/images/decbyhand2.jpg");
+	image.size(900, 600).move(700, -500);
+	image.clipWith(mpt.clipText)
+	image.animate(9999).move(100,-200)
+</script>
